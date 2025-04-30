@@ -1,8 +1,5 @@
 :root{
     --cream: #d7e8cb;
-    --light-blue: #c1e7f5;
-    --blue: #4cb5e8;
-    --dark-blue:#2285b7;
     --dark-green: #075938;
     
     /* Shadows for Elements that are Not Square */
@@ -90,7 +87,7 @@ section{
 
 }
 #grid img{
-    border-radius: 25px;
+    border-radius: 5px;
     margin:auto;
     width: 350px;
     height: auto;
@@ -107,22 +104,23 @@ section{
     font-family: var(--p-fonts);
     max-width: 40ch;
     text-align:center;
-    padding:2rem 1rem 2rem 1rem;
+    padding:2rem 2rem 2rem 1rem;
     
 }
 #grid2 {
     font-family: var(--p-fonts);
     color: var(--);
     display:grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 50% 50%;
     justify-content:center;
     padding-bottom: 2rem;
 }
 #contact, #form{
     max-width:40ch;
     text-align:center;
-    padding: 2rem;
+    padding: 3rem;
 }
+
 #form{
     border-radius: 32px;
     border: 2px solid var(--dark-green);
@@ -158,13 +156,14 @@ label{
 
 }
 #contact p{
-    border-radius: 20px;
+    border-radius: 30px;
     border: 2px solid var(--dark-green);
-    padding:1.5rem;
+    padding:3rem;
+    gap: 50px;
 }
 
 #contact img{
-    width: 350px;
+    width: 400px;
     height: auto;
     border-radius: 8px;
 }
