@@ -1,0 +1,189 @@
+:root{
+    --cream: #d7e8cb;
+    --light-blue: #c1e7f5;
+    --blue: #4cb5e8;
+    --dark-blue:#2285b7;
+    --dark-green: #075938;
+    
+    /* Shadows for Elements that are Not Square */
+    --filter-shadow-sm: drop-shadow(-3px 3px 7px var(--med-gray));
+    --filter-shadow-lg: drop-shadow(-6px 6px 10px var(--med-gray));
+
+    /* Adobe Font Family */
+    --h1-fonts: "rooney-web",sans-serif;
+    --p-fonts: "proxima-soft",sans-serif;
+}
+body{
+    background: var(--cream); 
+    font-family: var(--h1-fonts);
+    color: var(--dark-green);
+    margin: 0;
+    line-height: 1.35;
+}
+header{
+    background-image: url(images/swiss-valley.jpg);
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+}
+h1 {
+    text-align: center;
+    font-family: var(--h1-fonts);
+    font-size:4rem;
+    color: var(--cream);
+    text-decoration-line: underline;
+    text-shadow:
+    2px 2px -0 var(--dark-green),
+    -2px 2px 0 var(--dark-green),
+    -2px -2px 0 var(--dark-green),
+    2px -2px 0 var(--dark-green);
+    
+}
+nav ul{
+    font-family: var(--h1-fonts);
+    list-style-type: none;
+    padding: 100px;
+    width: auto;
+    margin: auto;
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    gap: auto;
+    
+}
+nav a{
+    text-decoration: none;
+    background-color: var(--dark-green);
+    color: var(--cream);
+    border-radius: 32px;
+}
+a{
+    padding: 1.5rem;
+}
+a:hover{
+    background-color: var(--cream);
+    color: var(--dark-green);
+    border: 2px solid var(--dark-green);
+    transition: .5s;
+}
+section{
+    font-family: var(--p-fonts);
+}
+#information{
+    font-family: var(--p-fonts);
+    color: var(--dark-green);
+    max-width: 65ch;
+    display:inline;
+    text-align:center;
+    padding: 2rem;
+    
+} 
+#information p{
+    max-width:50ch;
+    margin:auto;
+}
+#grid {
+    color: var(--dark-green);
+    display:grid;
+    grid-template-columns: auto auto;
+    justify-content:center;
+
+}
+#grid img{
+    border-radius: 25px;
+    margin:auto;
+    width: 350px;
+    height: auto;
+    
+}
+#group_1{
+    font-family: var(--p-fonts);
+    max-width: 40ch;
+    text-align:center;
+    padding:2rem 1rem 2rem 1rem;
+    
+}
+#group_2{
+    font-family: var(--p-fonts);
+    max-width: 40ch;
+    text-align:center;
+    padding:2rem 1rem 2rem 1rem;
+    
+}
+#grid2 {
+    font-family: var(--p-fonts);
+    color: var(--);
+    display:grid;
+    grid-template-columns: auto auto auto;
+    justify-content:center;
+    padding-bottom: 2rem;
+}
+#contact, #form{
+    max-width:40ch;
+    text-align:center;
+    padding: 2rem;
+}
+#form{
+    border-radius: 32px;
+    border: 2px solid var(--dark-green);
+    margin: 10px;
+}
+input, label, textarea{
+    display: block;
+    font-size: 1rem;
+}
+label{
+    margin: 0.5rem 0 0.25rem 0;
+    text-align: left;
+    padding:.70rem;
+    
+}
+#my-submit{
+    font-family: var(--p-fonts);
+    grid-column: 1/-1;
+    padding: 0.75rem 1rem;
+    margin: 1rem 0;
+    background-color: var(--dark-green);
+    color: var(--cream);
+    font-size: 1rem;
+    border: none;
+    border-radius: 32px;
+    justify-self: end;
+}
+#my-submit:hover{
+    background-color: var(--cream);
+    color: var(--dark-green);
+    border: 2px solid var(--dark-green);
+    cursor: pointer;
+
+}
+#contact p{
+    border-radius: 20px;
+    border: 2px solid var(--dark-green);
+    padding:1.5rem;
+}
+
+#contact img{
+    width: 350px;
+    height: auto;
+    border-radius: 8px;
+}
+h2{
+    font-family: var(--p-fonts);
+    color: var(--dark-green);
+    text-align:center;
+    text-decoration-line: underline;
+    padding:2rem;
+}
+h3{
+    font-family: var(--p-fonts);
+} 
+footer{
+    background-color: var(--dark-green);
+    color:var(--cream);
+    font-family: var(--p-fonts);
+    padding:2rem 1rem 2rem 1rem;
+    text-align:center;
+}
+
+
