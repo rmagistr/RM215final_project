@@ -121,7 +121,6 @@ section{
 }
 
 #form{
-    border-radius: 32px;
     border: 2px solid var(--dark-green);
     margin: 10px;
 }
@@ -144,7 +143,6 @@ label{
     color: var(--cream);
     font-size: 1rem;
     border: none;
-    border-radius: 32px;
     justify-self: end;
 }
 #my-submit:hover{
@@ -154,17 +152,31 @@ label{
     cursor: pointer;
 
 }
+#grid2{
+    display:grid;
+    grid-template-columns: auto 4fr;
+    align-items: center;
+    gap: 30px;
+
+}
+#contact{
+    display:grid;
+    align-items: center;
+    gap: 30px;
+}
+
 #contact p{
-    border-radius: 30px;
+
     border: 2px solid var(--dark-green);
     padding:3rem;
     gap: 50px;
 }
 
 #contact img{
+    margin-left:auto;
     width: 400px;
     height: auto;
-    border-radius: 8px;
+
 }
 h2{
     font-family: var(--p-fonts);
