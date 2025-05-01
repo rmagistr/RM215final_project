@@ -87,11 +87,10 @@ section{
 
 }
 #grid img{
-    border-radius: 5px;
-    margin:auto;
-    width: 400px auto;
-    height: auto;
-    
+        border-radius: 5px;
+        margin:auto;
+        width: 350px;
+        height: auto;
 }
 #group_1{
     font-family: var(--p-fonts);
