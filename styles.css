@@ -66,7 +66,7 @@ a:hover{
 section{
     font-family: var(--p-fonts);
 }
-#information{
+#info{
     font-family: var(--p-fonts);
     color: var(--dark-green);
     max-width: 65ch;
@@ -75,7 +75,7 @@ section{
     padding: 2rem;
     
 } 
-#information p{
+#info p{
     max-width:50ch;
     margin:auto;
 }
@@ -92,14 +92,14 @@ section{
         width: 350px;
         height: auto;
 }
-#group_1{
+#groupA{
     font-family: var(--p-fonts);
     max-width: 40ch;
     text-align:center;
     padding:2rem 1rem 2rem 1rem;
     
 }
-#group_2{
+#groupB{
     font-family: var(--p-fonts);
     max-width: 40ch;
     text-align:center;
